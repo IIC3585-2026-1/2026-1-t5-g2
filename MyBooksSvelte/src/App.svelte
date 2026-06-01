@@ -25,7 +25,7 @@
 
 <div class="app">
   <div class="header">
-    <h1>MyBooks (Svelte)</h1>
+    <h1>MyBooks - Svelte</h1>
     <div>
       <select bind:value={$filter}>
         <option value="all">Todos</option>

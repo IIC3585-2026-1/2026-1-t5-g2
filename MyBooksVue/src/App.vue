@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <div class="header">
-      <h1>MyBooks (Vue)</h1>
+      <h1>MyBooks - Vue</h1>
       <div>
         <select v-model="filter">
           <option value="all">Todos</option>

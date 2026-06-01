@@ -112,6 +112,25 @@
 </div>
 
 <style>
+  button {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  button:hover:not(:disabled) {
+    background: var(--accent-secondary);
+  }
+
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
   .spinner {
     display: inline-block;
     width: 16px;
